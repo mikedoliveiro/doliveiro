@@ -3,9 +3,12 @@
 <html>
   
 <style>
-body {background-color: lightblue;}
+body {
+  background-color: #0BEEDC;}
 
-.topnav {background-color: #333;overflow: hidden;}
+.topnav {
+  background-color: #333;
+  overflow: hidden;}
 
 .topnav a {
   float: left;
@@ -24,34 +27,34 @@ body {background-color: lightblue;}
   background-color: #4CAF50;
   color: white;}
 
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;}
-  
  .about-section {
   padding: 50px;
   text-align: center;
   background-color: #1B75EE;}
 
-  
 h1 {
-  color: white;
+  color: #FDFDFD;
   font-family: verdana;
+  font-size: 30px;
   text-align: center;}
   
 h2 {
   color: white;
   font-family: verdana;
-  text-align: centre;}
+  font-size: 20px;
+  text-align: center;}
   
 p {
-  color: white;
+  color: #FFFFFF;
   font-family: verdana;
   font-size: 20px;}
-
+  
+p1 {
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;}  
+  
 html {
   box-sizing: border-box;}
 
@@ -93,6 +96,12 @@ html {
 .button:hover {
   background-color: #555;}
   
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }}
+    
 </style>
 
 <head>
@@ -109,8 +118,8 @@ html {
 <div class="about-section">
 <body>
 <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+  <p1>Some text about who we are and what we do.</p1>
+  <p1>Resize the browser window to see that this page is responsive by the way.</p1>
 
 </div>
 <h2>Our Team</h2> 
